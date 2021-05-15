@@ -1,5 +1,4 @@
-{
-    "data": [
+[
         {
             "diagnosed_date": "2020-02-19",
             "count": 2,
@@ -3596,6 +3595,4 @@
             "count": 22,
             "weekly_average_count": 17.4
         }
-    ],
-    "date": "2021\/05\/12 18:00"
-}
+]
