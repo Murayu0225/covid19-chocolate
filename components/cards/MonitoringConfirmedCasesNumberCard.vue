@@ -36,7 +36,7 @@
 
 <script>
 import MonitoringConfirmedCasesChart from '@/components/MonitoringConfirmedCasesChart.vue'
-import Data from '@/data/daily_positive_detail.json'
+import Data from '@/data/weekly_avg.json'
 import {
   getNumberToFixedFunction,
   getNumberToLocaleStringFunction,
