@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-named-default
-import { default as rawData } from '@/data/daily_positive_detail.json'
+import { default as rawData } from '@/data/weekly_avg.json'
 import {
   Convert,
   DailyPositiveDetail,
