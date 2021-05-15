@@ -5,9 +5,9 @@
         {{ $t('検査数・陽性者の詳細') }}
         {{ formatDate(date) }}時点
       </h3>
-      <!--<h4 class="InfectionMedicalcareprovisionStatus-title">
+      <h4 class="InfectionMedicalcareprovisionStatus-title">
         {{ $t('このデータは、平日のみ更新') }}
-      </h4>-->
+      </h4>
     </div>
     <div class="InfectionMedicalcareprovisionStatus-Box">
       <div class="InfectionMedicalcareprovisionStatus-Headline">
