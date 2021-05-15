@@ -6,14 +6,14 @@
         :title-id="'details-of-confirmed-cases'"
         :date="date"
       >
-        <!--<template #additionalDescription>
+        <template #additionalDescription>
           <span>{{ $t('（注）') }}</span>
           <ul>
             <li>
               {{ $t('このデータの更新は、土・日・祝日は行わない') }}
             </li>
           </ul>
-        </template>-->
+        </template>
         <confirmed-cases-details-table
           :aria-label="$t('検査陽性者の状況')"
           v-bind="confirmedCases"
