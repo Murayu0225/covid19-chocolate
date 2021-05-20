@@ -911,5 +911,10 @@
   "5月24日（月曜日）から6月6日（日曜日）までの接種予約の受付": "Accepting vaccination reservations from May 24th (Monday) to June 6th (Sunday)",
   "個別接種：5月20日（木曜日）午前8時30分から受付【予約受付可能者数：約13,900人（5月18日時点）】": "Individual inoculation: Accepted from 8:30 am on Thursday, May 20 [Number of people who can accept reservations: Approximately 13,900 (as of May 18)]",
   "5月29日（土曜日）に接種を受けられる方へ": "For those who can be vaccinated on Saturday, May 29",
-  "個別接種：5月31日（月曜日）午前8時30分から": "Individual inoculation: From 8:30 am on Monday, May 31"
+  "個別接種：5月31日（月曜日）午前8時30分から": "Individual inoculation: From 8:30 am on Monday, May 31",
+  "「同じ会場、同じ時間」": "&quot;Same venue, same time&quot;",
+  "で2回目の予約をお取りします。": "I will make a second reservation at.",
+  "個別接種：5月20日（木曜日）の受付は終了しました。※予約者数：14,151人": "Individual inoculation: The reception is closed on Thursday, May 20th. * Number of reservations: 14,151",
+  "2回目の予約方法が変更になりました（集団接種・個別接種ともに）": "The second reservation method has been changed (both group inoculation and individual inoculation)",
+  "1回目の予約時、1回目接種の3週間後": "At the time of the first reservation, 3 weeks after the first inoculation"
 }
