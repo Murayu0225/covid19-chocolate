@@ -917,5 +917,9 @@
   "個別接種：5月20日（木曜日）の受付は終了しました。※予約者数：14,151人": "Individual inoculation: The reception is closed on Thursday, May 20th. * Number of reservations: 14,151",
   "2回目の予約方法が変更になりました（集団接種・個別接種ともに）": "The second reservation method has been changed (both group inoculation and individual inoculation)",
   "1回目の予約時、1回目接種の3週間後": "At the time of the first reservation, 3 weeks after the first inoculation",
-  "新規死亡者の報告があった場合のみ、グラフを更新する": "Update graph only when new deaths are reported"
+  "新規死亡者の報告があった場合のみ、グラフを更新する": "Update graph only when new deaths are reported",
+  "集団接種：5月27日（木曜日）午前8時30分から【6月10日（木曜日）から6月27日（日曜日）までの接種 ※木・土・日曜日のみ】": "Mass inoculation: From 8:30 am on Thursday, May 27 [Inoculation from Thursday, June 10 to Sunday, June 27 * Thursday, Saturday, Sunday only]",
+  "相模原市ワクチン接種web予約【次回の受付：5月27日（集団接種）】": "Sagamihara City Vaccine Web Reservation [Next reception: May 27 (group inoculation)]",
+  "個別接種：5月31日（月曜日）午前8時30分から【6月7日（月曜日）以降分の接種 ※接種期間は調整中】": "Individual inoculation: From 8:30 am on Monday, May 31 [Inoculation after Monday, June 7 * The inoculation period is being adjusted]",
+  "※今後のスケジュールについても決定次第お知らせします。": "* We will inform you of the future schedule as soon as it is decided."
 }
