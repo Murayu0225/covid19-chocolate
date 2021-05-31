@@ -69,7 +69,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   },
   head(): MetaInfo {
     return {
-      title: this.$t('相模原市') as string,
+      title: this.$t('市内の感染動向') as string,
     }
   },
 }
