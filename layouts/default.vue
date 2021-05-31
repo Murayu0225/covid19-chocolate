@@ -127,7 +127,7 @@ export default class Default extends Vue implements NuxtConfig {
       ],
       // Disable prettier for readability purposes
       // eslint-disable-next-line prettier/prettier
-      titleTemplate: `%s | ${this.$t('相模原市')} ${this.$t('新型コロナウイルス感染症')}${this.$t('対策サイト')}`,
+      titleTemplate: `%s | ${this.$t('新型コロナウイルス感染症')}${this.$t('対策サイト')}`,
       meta: [
         {
           hid: 'author',
@@ -146,7 +146,7 @@ export default class Default extends Vue implements NuxtConfig {
         {
           hid: 'og:site_name',
           property: 'og:site_name',
-          content: `${this.$t('相模原市')} ${this.$t(
+          content: `${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },
@@ -159,7 +159,7 @@ export default class Default extends Vue implements NuxtConfig {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: `${this.$t('相模原市')} ${this.$t(
+          content: `${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },
@@ -180,7 +180,7 @@ export default class Default extends Vue implements NuxtConfig {
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: `${this.$t('相模原市')} ${this.$t(
+          content: `${this.$t(
             '新型コロナウイルス感染症'
           )} ${this.$t('対策サイト')}`,
         },
