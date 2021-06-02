@@ -956,5 +956,11 @@
   "6月10日（木曜日）": "Thursday, June 10",
   "予約受付開始日（受付開始時間：午前8時30分から）": "Reservation reception start date (reception start time: from 8:30 am)",
   "※予約者数：9,450人": "* Number of reservations: 9,450",
-  "※予約者数：10,260人": "* Number of reservations: 10,260"
+  "※予約者数：10,260人": "* Number of reservations: 10,260",
+  "検査数・陽性者の詳細 {date}時点": "Number of tests / details of positive persons {date}",
+  "1日当たりの検査人数{todayPCRP}人、累計検査人数{allPCRP}人、1日当たりの検査件数{todayPCRT}人、累計検査件数{allPCRT}人、（PCR検査更新日時：{PCRDate}）": "Number of inspections per day {todayPCRP}, cumulative number of inspections {allPCRP}, number of inspections per day {todayPCRT}, cumulative number of inspections {allPCRT}, (PCR inspection update date: {a0a5419a3c0)",
+  "新規陽性者{newPositiveCases}人（濃厚接触者・接触者{n}人、海外渡航歴あり{k}人、不明{f}人、調査中{t}人）、死亡者数{d}人": "New positives {newPositiveCases} (dense contacts / contacts {n}, overseas travel history {k}, unknown {f}, under investigation {t}, {t}",
+  "男性{men}人、女性{women}人、累計陽性者数{all}人 <br /> 10歳未満{u10}人、20代{20}人、30代{30}人、40代{40}人、50代{50}人、60代{60}人、70代{70}人、80代{80}人、90代{90}人、100歳以上{100}人": "Male {men}, female {women}, cumulative number of positives {all}<br /> Under 10 years old {u10} people, 20s {20} people, 30s {30} people, 40s {40} people, 50s {50} people, 60s {a01d6b937a People in their 80s {80}, people in their 90s {90}, people over 100 years old {100}",
+  "本日の感染状況 {date}時点": "Today&#39;s infection status {date}",
+  "無症状{mp}人、軽症{kp}人、中等症{tk}人、重症{jk}人": "Asymptomatic {mp}, mild {kp}, moderate {tk}, severe {jk}"
 }
