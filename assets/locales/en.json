@@ -966,5 +966,19 @@
   "相模原市ワクチン接種web予約【次回の受付：6月8日（集団接種・個別接種）】": "Sagamihara City Vaccine Web Reservation [Next Reception: June 8 (Group Inoculation / Individual Inoculation)]",
   "新型コロナウイルスワクチンについて （{VaccineDate}更新）": "About the new coronavirus vaccine (Updated {VaccineDate})",
   "男性{men}人、女性{women}人、累計陽性者数{all}人 / 10歳未満{u10}人、20代{20}人、30代{30}人、40代{40}人、50代{50}人、60代{60}人、70代{70}人、80代{80}人、90代{90}人、100歳以上{100}人": "Male {men}, female {women}, cumulative number of positives {all} / under 10 {u10}, 20s {20}, 20s {20}, 30s {20} 50&#39;s {50}, 60&#39;s {60}, 70&#39;s {70}, 80&#39;s {80}, 90&#39;s {90}, 100 years old",
-  "ワクチンについて {VaccineDate}更新": "About vaccine {VaccineDate} update"
+  "ワクチンについて {VaccineDate}更新": "About vaccine {VaccineDate} update",
+  "65歳以上": "65 years of age or older",
+  "72歳以上": "72 years old and over",
+  "※集団接種会場は、職員会館、南メディカルセンターのみ": "* The mass inoculation venue is only the staff hall and the South Medical Center.",
+  "個別接種・集団接種【追加分】": "Individual inoculation / group inoculation [additional amount]",
+  "6月21日（月曜日）～6月27日（日曜日": "June 21st (Monday) -June 27th (Sunday)",
+  "個別接種【追加分】・集団接種": "Individual inoculation [additional amount] ・ Group inoculation",
+  "予約対象者": "Reservation target person",
+  "6月28日（月曜日）～7月4日（日曜日": "June 28th (Monday) -July 4th (Sunday)",
+  "6月12日（土曜日）～6月20日（日曜日）": "June 12th (Saturday) -June 20th (Sunday)",
+  "接種期間": "Inoculation period",
+  "75歳以上": "75 years and over",
+  "個別接種・集団接種【追加分】とも受付": "Both individual and group inoculations [additional] are accepted",
+  "69歳以上": "69 years and over",
+  "7月5日（月曜日）～7月11日（日曜日": "July 5th (Monday) -July 11th (Sunday)"
 }
