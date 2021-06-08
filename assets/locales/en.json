@@ -985,5 +985,6 @@
   "当サイトの開発情報": "Development information of this site",
   "→ 国が設置する「大規模接種センター」で接種を希望される方は次のページをご確認ください。": "→ Please check the next page if you wish to inoculate at the &quot;Large-scale Inoculation Center&quot; established by the government.",
   "国が設置する「大規模接種センター」で接種を希望される方へ （{VaccineDate}更新）": "For those who wish to receive vaccinations at the &quot;Large-scale Inoculation Center&quot; established by the government (Updated {VaccineDate})",
-  "個別接種・集団接種": "Individual inoculation / group inoculation"
+  "個別接種・集団接種": "Individual inoculation / group inoculation",
+  " 計算方法（ここをクリックして詳細を確認出来ます）": "Calculation method (Click here for details)"
 }
