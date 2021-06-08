@@ -79,7 +79,7 @@ export default {
       })
       .sort((a, b) => {
         // 年代順にソート
-        return areaOrder.indexOf(a.age) - areaOrder.indexOf(b.age)
+        return ageOrder.indexOf(a.age) - ageOrder.indexOf(b.age)
       })
 
     // データを追加
