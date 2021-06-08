@@ -3,7 +3,7 @@
     <client-only>
       <confirmed-cases-by-age-table
         :title="$t('年代別の陽性者数')"
-        :title-id="'number-of-confirmed-cases-by-Age'"
+        :title-id="'number-of-confirmed-cases-by-age'"
         :chart-data="ageTable"
         :date="date"
         :info="info"
@@ -12,11 +12,7 @@
           <span>{{ $t('（注）') }}</span>
           <ul>
             <li>
-              {{
-                $t(
-                  '毎日の発生数等によっては、個人が特定されるおそれがあるため、区別の陽性患者数については週報とする'
-                )
-              }}
+              {{ $t('開発中の画面です。') }}
             </li>
           </ul>
         </template>
@@ -52,8 +48,8 @@ export default {
 
     // ヘッダーを設定
     ageTable.headers = [
-      { text: this.$t('年代'), value: 'age' },
-      { text: this.$t('合計'), value: 'total', align: 'end' },
+      { text: this.$t('年代'), value: 'age', align: 'center' },
+      { text: this.$t('合計'), value: 'total', align: 'center' },
     ]
 
     // データをソート
@@ -69,7 +65,6 @@ export default {
       '80代',
       '90代',
       '100歳以上',
-      null,
     ]
     datasets.data
       .sort((a, b) => {
@@ -83,17 +78,17 @@ export default {
         }
       })
       .sort((a, b) => {
-        // 年齢順にソート
-        return ageOrder.indexOf(a.age) - ageOrder.indexOf(b.age)
+        // 年代順にソート
+        return areaOrder.indexOf(a.age) - areaOrder.indexOf(b.age)
       })
 
     // データを追加
     ageTable.datasets = datasets.data
-      .filter((d) => d.label !== '小計')
+      .filter((d) => d.age !== '小計')
       .map((d) => {
         const age = this.$t(d.age)
-        const total = countFormatter(d.total)
-
+        const count = countFormatter(d.count)
+      )
 
     const info = {
       sText: this.$t('{date}の累計', {
