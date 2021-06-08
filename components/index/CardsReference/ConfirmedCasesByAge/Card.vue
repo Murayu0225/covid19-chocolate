@@ -88,7 +88,7 @@ export default {
       .map((d) => {
         const age = this.$t(d.age)
         const count = countFormatter(d.count)
-      )
+      })
 
     const info = {
       sText: this.$t('{date}の累計', {
