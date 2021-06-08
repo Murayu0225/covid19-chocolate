@@ -2,7 +2,7 @@
   <v-col cols="12" md="6" class="DataCard ConfirmedCasesByAgeCard">
     <client-only>
       <confirmed-cases-by-age-table
-        :title="$t('陽性者数（区別・週報）')
+        :title="$t('年代別の陽性者数')"
         :title-id="'number-of-confirmed-cases-by-Age'"
         :chart-data="ageTable"
         :date="date"
