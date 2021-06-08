@@ -44,61 +44,56 @@ export default {
 
     const formattedDate = dayjs(date).format('YYYY/MM/DD HH:mm')
 
-    // 区市町村ごとの陽性者数
-    const AgeTable = {
+    // 年齢別の陽性者数
+    const ageTable = {
       headers: [],
       datasets: [],
     }
 
     // ヘッダーを設定
-    if (this.$i18n.locale === 'ja') {
-      AgeTable.headers = [
-        { text: this.$t('地域'), value: 'area' },
-        { text: this.$t('ふりがな'), value: 'ruby' },
-        { text: this.$t('区'), value: 'label' },
-        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
-      ]
-    } else {
-      municipalitiesTable.headers = [
-        { text: this.$t('地域'), value: 'area' },
-        { text: this.$t('区'), value: 'label' },
-        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
-      ]
-    }
+    ageTable.headers = [
+      { text: this.$t('年代'), value: 'age' },
+      { text: this.$t('合計'), value: 'total', align: 'end' },
+    ]
 
     // データをソート
-    const areaOrder = ['相模原市', null]
+    const ageOrder = [
+      '10歳未満',
+      '10代',
+      '20代',
+      '30代',
+      '40代',
+      '50代',
+      '60代',
+      '70代',
+      '80代',
+      '90代',
+      '100歳以上',
+      null,
+    ]
     datasets.data
       .sort((a, b) => {
-        // 全体をふりがなでソート
-        if (a.ruby === b.ruby) {
+        // 全体を合計でソート
+        if (a.total === b.total) {
           return 0
-        } else if (a.ruby > b.ruby) {
+        } else if (a.total > b.total) {
           return 1
         } else {
           return -1
         }
       })
       .sort((a, b) => {
-        // '特別区' -> '多摩地域' -> '島しょ地域' -> その他 の順にソート
-        return areaOrder.indexOf(a.area) - areaOrder.indexOf(b.area)
+        // 年齢順にソート
+        return ageOrder.indexOf(a.age) - ageOrder.indexOf(b.age)
       })
 
     // データを追加
-    municipalitiesTable.datasets = datasets.data
+    ageTable.datasets = datasets.data
       .filter((d) => d.label !== '小計')
       .map((d) => {
-        const area = this.$t(d.area)
-        const label = this.$t(d.label)
-        const count = countFormatter(d.count)
+        const age = this.$t(d.age)
+        const total = countFormatter(d.total)
 
-        if (this.$i18n.locale === 'ja') {
-          const ruby = this.$t(d.ruby)
-          return { area, ruby, label, count }
-        } else {
-          return { area, label, count }
-        }
-      })
 
     const info = {
       sText: this.$t('{date}の累計', {
@@ -108,7 +103,7 @@ export default {
 
     return {
       date: formattedDate,
-      municipalitiesTable,
+      ageTable,
       info,
     }
   },
