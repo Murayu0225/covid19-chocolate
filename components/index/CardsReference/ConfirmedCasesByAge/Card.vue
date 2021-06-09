@@ -69,9 +69,9 @@ export default {
     datasets.data
       .sort((a, b) => {
         // 全体を合計でソート
-        if (a.total === b.total) {
+        if (a.count === b.count) {
           return 0
-        } else if (a.total > b.total) {
+        } else if (a.count > b.count) {
           return 1
         } else {
           return -1
