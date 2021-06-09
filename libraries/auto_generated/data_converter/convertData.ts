@@ -9,6 +9,7 @@
 
 export interface Data {
     patientsSummary: PatientsSummary;
+    data:            { [key: string]: number };
     lastUpdate:      string;
     mainSummary:     MainSummary;
     date:            string;
@@ -207,6 +208,7 @@ function r(name: string) {
 const typeMap: any = {
     "Data": o([
         { json: "patients_summary", js: "patientsSummary", typ: r("PatientsSummary") },
+        { json: "data", js: "data", typ: m(0) },
         { json: "lastUpdate", js: "lastUpdate", typ: "" },
         { json: "main_summary", js: "mainSummary", typ: r("MainSummary") },
         { json: "date", js: "date", typ: "" },
