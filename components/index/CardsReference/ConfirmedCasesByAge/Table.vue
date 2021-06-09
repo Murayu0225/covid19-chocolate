@@ -27,6 +27,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+
 import DataView from '@/components/index/_shared/DataView.vue'
 import DataViewDataSetPanel from '@/components/index/_shared/DataViewDataSetPanel.vue'
 export default Vue.extend({

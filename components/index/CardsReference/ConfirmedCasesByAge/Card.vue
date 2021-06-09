@@ -88,7 +88,7 @@ export default {
       .map((d) => {
         const age = this.$t(d.age)
         const count = countFormatter(d.count)
-      return { age, count }
+        return { age, count }
       })
 
     const info = {
