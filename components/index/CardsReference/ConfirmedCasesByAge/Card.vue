@@ -26,7 +26,7 @@ import dayjs from 'dayjs'
 
 // table タグとの衝突を避けるため ConfirmedCasesByAgeTable とする
 import ConfirmedCasesByAgeTable from '@/components/index/CardsReference/ConfirmedCasesByAge/Table.vue'
-import Data from '@/data/infection_medicalcareprovision_status.json'
+import Data from '@/data/age.json'
 import { getCommaSeparatedNumberToFixedFunction } from '~/utils/monitoringStatusValueFormatters'
 
 const countFormatter = getCommaSeparatedNumberToFixedFunction()
