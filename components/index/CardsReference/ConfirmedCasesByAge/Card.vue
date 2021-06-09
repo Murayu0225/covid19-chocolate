@@ -1,5 +1,5 @@
 <template>
-  <v-col cols="12" md="6" class="DataCard ConfirmedCasesByAgeCard">
+  <v-col cols="12" md="6" class="DataCard">
     <client-only>
       <confirmed-cases-by-age-table
         :title="$t('年代別の陽性者数')"
@@ -83,13 +83,11 @@ export default {
       })
 
     // データを追加
-    ageTable.datasets = datasets.data
-      .filter((d) => d.age !== '小計')
-      .map((d) => {
-        const age = this.$t(d.age)
-        const count = countFormatter(d.count)
-        return { age, count }
-      })
+    ageTable.datasets = data.map((d) => {
+      const age = this.$t(d.age)
+      const count = countFormatter(d.count)
+      return { age, count }
+    })
 
     const info = {
       sText: this.$t('{date}の累計', {
