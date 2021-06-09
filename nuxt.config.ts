@@ -222,6 +222,7 @@ const config: NuxtConfig = {
         '/cards/monitoring-items-overview',
         '/cards/positive-number-by-developed-date',
         '/cards/deaths-by-death-date',
+        '/cards/number-of-confirmed-cases-by-age',
       ]
       const localizedPages = locales
         .map((locale) => pages.map((page) => `/${locale}${page}`))
