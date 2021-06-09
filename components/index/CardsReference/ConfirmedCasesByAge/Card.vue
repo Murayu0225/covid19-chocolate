@@ -1,10 +1,10 @@
 <template>
-  <v-col cols="12" md="6" class="DataCard">
+  <v-col cols="12" md="6" class="DataCard ConfirmedCasesByMunicipalitiesCard">
     <client-only>
-      <confirmed-cases-by-age-table
-        :title="$t('年代別の陽性者数')"
-        :title-id="'number-of-confirmed-cases-by-age'"
-        :chart-data="ageTable"
+      <confirmed-cases-by-municipalities-table
+        :title="$t('陽性者数（区別・週報）')"
+        :title-id="'number-of-confirmed-cases-by-municipalities'"
+        :chart-data="municipalitiesTable"
         :date="date"
         :info="info"
       >
@@ -12,11 +12,15 @@
           <span>{{ $t('（注）') }}</span>
           <ul>
             <li>
-              {{ $t('開発中の画面です。') }}
+              {{
+                $t(
+                  '毎日の発生数等によっては、個人が特定されるおそれがあるため、区別の陽性患者数については週報とする'
+                )
+              }}
             </li>
           </ul>
         </template>
-      </confirmed-cases-by-age-table>
+      </confirmed-cases-by-municipalities-table>
     </client-only>
   </v-col>
 </template>
@@ -24,8 +28,8 @@
 <script>
 import dayjs from 'dayjs'
 
-// table タグとの衝突を避けるため ConfirmedCasesByAgeTable とする
-import ConfirmedCasesByAgeTable from '@/components/index/CardsReference/ConfirmedCasesByAge/Table.vue'
+// table タグとの衝突を避けるため ConfirmedCasesByMunicipalitiesTable とする
+import ConfirmedCasesByMunicipalitiesTable from '@/components/index/CardsReference/ConfirmedCasesByMunicipalities/Table.vue'
 import Data from '@/data/infection_medicalcareprovision_status.json'
 import { getCommaSeparatedNumberToFixedFunction } from '~/utils/monitoringStatusValueFormatters'
 
@@ -33,61 +37,68 @@ const countFormatter = getCommaSeparatedNumberToFixedFunction()
 
 export default {
   components: {
-    ConfirmedCasesByAgeTable,
+    ConfirmedCasesByMunicipalitiesTable,
   },
   data() {
     const { datasets, date } = Data
 
-    const formattedDate = dayjs(agedate).format('YYYY/MM/DD HH:mm')
+    const formattedDate = dayjs(date).format('YYYY/MM/DD HH:mm')
 
-    // 年齢別の陽性者数
-    const ageTable = {
+    // 区市町村ごとの陽性者数
+    const municipalitiesTable = {
       headers: [],
       datasets: [],
     }
 
     // ヘッダーを設定
-    ageTable.headers = [
-      { text: this.$t('年代'), value: 'age', align: 'center' },
-      { text: this.$t('合計'), value: 'count', align: 'center' },
-    ]
+    if (this.$i18n.locale === 'ja') {
+      municipalitiesTable.headers = [
+        { text: this.$t('地域'), value: 'area' },
+        { text: this.$t('ふりがな'), value: 'ruby' },
+        { text: this.$t('区'), value: 'label' },
+        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
+      ]
+    } else {
+      municipalitiesTable.headers = [
+        { text: this.$t('地域'), value: 'area' },
+        { text: this.$t('区'), value: 'label' },
+        { text: this.$t('陽性者数'), value: 'count', align: 'end' },
+      ]
+    }
 
     // データをソート
-    const ageOrder = [
-      '10歳未満',
-      '10代',
-      '20代',
-      '30代',
-      '40代',
-      '50代',
-      '60代',
-      '70代',
-      '80代',
-      '90代',
-      '100歳以上',
-    ]
+    const areaOrder = ['相模原市', null]
     datasets.data
       .sort((a, b) => {
-        // 全体を合計でソート
-        if (a.count === b.count) {
+        // 全体をふりがなでソート
+        if (a.ruby === b.ruby) {
           return 0
-        } else if (a.count > b.count) {
+        } else if (a.ruby > b.ruby) {
           return 1
         } else {
           return -1
         }
       })
       .sort((a, b) => {
-        // 年代順にソート
-        return ageOrder.indexOf(a.age) - ageOrder.indexOf(b.age)
+        // '特別区' -> '多摩地域' -> '島しょ地域' -> その他 の順にソート
+        return areaOrder.indexOf(a.area) - areaOrder.indexOf(b.area)
       })
 
     // データを追加
-    ageTable.datasets = data.map((d) => {
-      const age = this.$t(d.age)
-      const count = countFormatter(d.count)
-      return { age, count }
-    })
+    municipalitiesTable.datasets = datasets.data
+      .filter((d) => d.label !== '小計')
+      .map((d) => {
+        const area = this.$t(d.area)
+        const label = this.$t(d.label)
+        const count = countFormatter(d.count)
+
+        if (this.$i18n.locale === 'ja') {
+          const ruby = this.$t(d.ruby)
+          return { area, ruby, label, count }
+        } else {
+          return { area, label, count }
+        }
+      })
 
     const info = {
       sText: this.$t('{date}の累計', {
@@ -97,7 +108,7 @@ export default {
 
     return {
       date: formattedDate,
-      ageTable,
+      municipalitiesTable,
       info,
     }
   },
