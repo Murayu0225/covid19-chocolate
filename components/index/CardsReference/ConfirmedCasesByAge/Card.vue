@@ -49,7 +49,7 @@ export default {
     // ヘッダーを設定
     ageTable.headers = [
       { text: this.$t('年代'), value: 'age', align: 'center' },
-      { text: this.$t('合計'), value: 'total', align: 'center' },
+      { text: this.$t('合計'), value: 'count', align: 'center' },
     ]
 
     // データをソート
