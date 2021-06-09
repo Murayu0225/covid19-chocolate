@@ -1,8 +1,5 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date">
-    <template #description>
-      <slot name="description" />
-    </template>
     <v-data-table
       :ref="'displayedTable'"
       :headers="chartData.headers"
@@ -15,12 +12,18 @@
       :disable-sort="true"
       class="cardTable"
     />
+    <template #additionalDescription>
+      <slot name="additionalDescription" />
+    </template>
     <template #infoPanel>
       <data-view-data-set-panel
         :l-text="info.lText"
         :s-text="info.sText"
         :unit="info.unit"
       />
+    </template>
+    <template #footer>
+      <open-data-link v-show="url" :url="url" />
     </template>
   </data-view>
 </template>
@@ -30,8 +33,10 @@ import Vue from 'vue'
 
 import DataView from '@/components/index/_shared/DataView.vue'
 import DataViewDataSetPanel from '@/components/index/_shared/DataViewDataSetPanel.vue'
+import OpenDataLink from '@/components/index/_shared/OpenDataLink.vue'
+
 export default Vue.extend({
-  components: { DataView, DataViewDataSetPanel },
+  components: { DataView, DataViewDataSetPanel, OpenDataLink },
   props: {
     title: {
       type: String,
@@ -52,6 +57,10 @@ export default Vue.extend({
     info: {
       type: Object,
       default: () => {},
+    },
+    url: {
+      type: String,
+      default: '',
     },
   },
   mounted() {
