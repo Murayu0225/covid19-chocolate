@@ -22,9 +22,6 @@
         :unit="info.unit"
       />
     </template>
-    <template #footer>
-      <open-data-link :url="url" />
-    </template>
   </data-view>
 </template>
 
@@ -32,7 +29,6 @@
 import Vue from 'vue'
 import DataView from '@/components/index/_shared/DataView.vue'
 import DataViewDataSetPanel from '@/components/index/_shared/DataViewDataSetPanel.vue'
-import OpenDataLink from '@/components/index/_shared/OpenDataLink.vue'
 export default Vue.extend({
   components: { DataView, DataViewDataSetPanel, OpenDataLink },
   props: {
@@ -55,10 +51,6 @@ export default Vue.extend({
     info: {
       type: Object,
       default: () => {},
-    },
-    url: {
-      type: String,
-      default: '',
     },
   },
   mounted() {
