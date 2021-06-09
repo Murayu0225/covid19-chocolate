@@ -30,7 +30,7 @@ import Vue from 'vue'
 import DataView from '@/components/index/_shared/DataView.vue'
 import DataViewDataSetPanel from '@/components/index/_shared/DataViewDataSetPanel.vue'
 export default Vue.extend({
-  components: { DataView, DataViewDataSetPanel, OpenDataLink },
+  components: { DataView, DataViewDataSetPanel },
   props: {
     title: {
       type: String,
