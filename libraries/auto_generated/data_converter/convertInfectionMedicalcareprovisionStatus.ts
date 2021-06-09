@@ -8,11 +8,22 @@
 // match the expected interface, even if the JSON is valid.
 
 export interface InfectionMedicalcareprovisionStatus {
-    date:        string;
-    Todaydate:   string;
-    検査統計日時:   Date;
-    ワクチン更新日時: Date;
-    data:        { [key: string]: number };
+    date:      string;
+    todaydate: string;
+    検査統計日時:    Date;
+    ワクチン更新日時:  Date;
+    data:      { [key: string]: number };
+    datasets:  Datasets;
+}
+
+export interface Datasets {
+    date: string;
+    data: Datum[];
+}
+
+export interface Datum {
+    age:   string;
+    count: number;
 }
 
 // Converts JSON strings to/from your types
@@ -162,9 +173,18 @@ function r(name: string) {
 const typeMap: any = {
     "InfectionMedicalcareprovisionStatus": o([
         { json: "date", js: "date", typ: "" },
-        { json: "Todaydate", js: "Todaydate", typ: "" },
+        { json: "Todaydate", js: "todaydate", typ: "" },
         { json: "検査統計日時", js: "検査統計日時", typ: Date },
         { json: "ワクチン更新日時", js: "ワクチン更新日時", typ: Date },
         { json: "data", js: "data", typ: m(0) },
+        { json: "datasets", js: "datasets", typ: r("Datasets") },
+    ], false),
+    "Datasets": o([
+        { json: "date", js: "date", typ: "" },
+        { json: "data", js: "data", typ: a(r("Datum")) },
+    ], false),
+    "Datum": o([
+        { json: "age", js: "age", typ: "" },
+        { json: "count", js: "count", typ: 0 },
     ], false),
 };
