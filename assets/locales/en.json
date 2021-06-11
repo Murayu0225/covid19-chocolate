@@ -988,5 +988,6 @@
   "個別接種・集団接種": "Individual inoculation / group inoculation",
   " 計算方法（ここをクリックして詳細を確認出来ます）": "Calculation method (Click here for details)",
   "※集団接種会場は、市役所職員会館（市役所本庁舎裏）、南メディカルセンターのみ": "* Group inoculation venues are only the City Hall Staff Hall (behind the City Hall Main Government Building) and the South Medical Center.",
-  "相模原市ワクチン接種web予約【次回の受付：6月17日（集団接種・個別接種）】": "Sagamihara City Vaccine Web Reservation [Next Reception: June 17 (Group Inoculation / Individual Inoculation)]"
+  "相模原市ワクチン接種web予約【次回の受付：6月17日（集団接種・個別接種）】": "Sagamihara City Vaccine Web Reservation [Next Reception: June 17 (Group Inoculation / Individual Inoculation)]",
+  "年代別の陽性者数": "Number of positives by age group"
 }

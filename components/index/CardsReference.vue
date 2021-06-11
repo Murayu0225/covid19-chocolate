@@ -23,6 +23,8 @@ const PositiveNumberByDevelopedDateCard = () =>
   import(
     '@/components/index/CardsReference/PositiveNumberByDevelopedDate/Card.vue'
   )
+const ConfirmedCasesByAgeCard = () =>
+  import('@/components/index/CardsReference/ConfirmedCasesByAge/Card.vue')
 /* eslint-enable simple-import-sort/imports */
 
 export default Vue.extend({
@@ -34,6 +36,7 @@ export default Vue.extend({
       rows: [
         [ConfirmedCasesByMunicipalitiesCard, DeathsByDeathDateCard],
         [PositiveNumberByDiagnosedDateCard, PositiveNumberByDevelopedDateCard],
+        [ConfirmedCasesByAgeCard],
       ],
     }
   },

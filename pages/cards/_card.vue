@@ -22,6 +22,8 @@ import DeathsByDeathDateCard from '@/components/index/CardsReference/DeathsByDea
 import PositiveNumberByDiagnosedDateCard from '@/components/index/CardsReference/PositiveNumberByDiagnosedDate/Card.vue'
 // 発症日別による陽性者数の推移
 import PositiveNumberByDevelopedDateCard from '@/components/index/CardsReference/PositiveNumberByDevelopedDate/Card.vue'
+// 年代別の陽性者数
+import ConfirmedCasesByAgeCard from '@/components/index/CardsReference/ConfirmedCasesByAge/Card.vue'
 
 import { Vue, Component } from 'nuxt-property-decorator'
 import { getLinksLanguageAlternative } from '@/utils/i18nUtils'
@@ -41,6 +43,7 @@ import type { NuxtConfig } from '@nuxt/types'
     DeathsByDeathDateCard,
     PositiveNumberByDiagnosedDateCard,
     PositiveNumberByDevelopedDateCard,
+    ConfirmedCasesByAgeCard,
   },
 })
 export default class CardContainer extends Vue implements NuxtConfig {
@@ -81,6 +84,11 @@ export default class CardContainer extends Vue implements NuxtConfig {
       // 発症日別による陽性者数の推移
       case 'positive-number-by-developed-date':
         cardComponent = 'positive-number-by-developed-date-card'
+        break
+      // 年代別の陽性者数
+      case 'number-of-confirmed-cases-by-age':
+        cardComponent = 'confirmed-cases-by-age-card'
+        break
     }
     /* eslint-enable simple-import-sort/imports */
     return {

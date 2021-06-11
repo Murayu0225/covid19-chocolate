@@ -121,7 +121,7 @@ export default Vue.extend<Data, Methods, Computed, Props>({
       return this.infectionMedicalCareProvisionStatus.data
     },
     date() {
-      return new Date(this.infectionMedicalCareProvisionStatus.Todaydate)
+      return new Date(this.infectionMedicalCareProvisionStatus.todaydate)
     },
     infectionMedicalCareProvisionStatus() {
       return this.$store.state.infectionMedicalCareProvisionStatus
