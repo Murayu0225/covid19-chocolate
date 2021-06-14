@@ -35,7 +35,6 @@ type Props = {}
 export default Vue.extend<Data, Methods, Computed, Props>({
   components: {
     WhatsNew,
-    VaccineInfoCard,
     DetailA,
   },
   computed: {
