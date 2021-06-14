@@ -9,24 +9,8 @@ import Vue from 'vue'
 import CardsLazyRow from '@/components/index/_shared/CardsLazyRow.vue'
 
 // モニタリング項目
-const ConfirmedCasesByMunicipalitiesCard = () =>
-  import(
-    '@/components/index/CardsReference/ConfirmedCasesByMunicipalities/Card.vue'
-  )
-const DeathsByDeathDateCard = () =>
-  import('@/components/index/CardsReference/DeathsByDeathDate/Card.vue')
-const PositiveNumberByDiagnosedDateCard = () =>
-  import(
-    '@/components/index/CardsReference/PositiveNumberByDiagnosedDate/Card.vue'
-  )
-const PositiveNumberByDevelopedDateCard = () =>
-  import(
-    '@/components/index/CardsReference/PositiveNumberByDevelopedDate/Card.vue'
-  )
-const ConfirmedCasesByAgeCard = () =>
-  import('@/components/index/CardsReference/ConfirmedCasesByAge/Card.vue')
-const TestedNumberCard = () =>
-  import('@/components/index/CardsReference/TestedNumber/Card.vue')
+const VaccineInfoCard = () =>
+  import('@/components/index/SiteTopUpper/VaccineInfoCard.vue')
 /* eslint-enable simple-import-sort/imports */
 
 export default Vue.extend({
@@ -36,9 +20,7 @@ export default Vue.extend({
   data() {
     return {
       rows: [
-        [ConfirmedCasesByMunicipalitiesCard, DeathsByDeathDateCard],
-        [PositiveNumberByDiagnosedDateCard, PositiveNumberByDevelopedDateCard],
-        [ConfirmedCasesByAgeCard, TestedNumberCard],
+        [VaccineInfoCard],
       ],
     }
   },
