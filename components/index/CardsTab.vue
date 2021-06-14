@@ -36,8 +36,8 @@ export default Vue.extend({
     return {
       tab: null,
       items: [
-        { label: this.$t('モニタリング項目'), component: CardsMonitoring },
-        { label: this.$t('その他 参考指標'), component: CardsReference },
+        { label: this.$t('感染状況'), component: CardsMonitoring },
+        { label: this.$t('ワクチン情報'), component: CardsReference },
       ],
       mdiChartTimelineVariant,
     }
