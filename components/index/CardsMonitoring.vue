@@ -22,6 +22,24 @@ const MonitoringConfirmedCasesNumberCard = () =>
   import(
     '@/components/index/CardsMonitoring/MonitoringConfirmedCasesNumber/Card.vue'
   )
+const ConfirmedCasesByMunicipalitiesCard = () =>
+  import(
+    '@/components/index/CardsReference/ConfirmedCasesByMunicipalities/Card.vue'
+  )
+const DeathsByDeathDateCard = () =>
+  import('@/components/index/CardsReference/DeathsByDeathDate/Card.vue')
+const PositiveNumberByDiagnosedDateCard = () =>
+  import(
+    '@/components/index/CardsReference/PositiveNumberByDiagnosedDate/Card.vue'
+  )
+const PositiveNumberByDevelopedDateCard = () =>
+  import(
+    '@/components/index/CardsReference/PositiveNumberByDevelopedDate/Card.vue'
+  )
+const ConfirmedCasesByAgeCard = () =>
+  import('@/components/index/CardsReference/ConfirmedCasesByAge/Card.vue')
+const TestedNumberCard = () =>
+  import('@/components/index/CardsReference/TestedNumber/Card.vue')
 /* eslint-enable simple-import-sort/imports */
 
 export default Vue.extend({
@@ -33,6 +51,9 @@ export default Vue.extend({
       rows: [
         [ConfirmedCasesDetailsCard, MonitoringItemsOverviewCard],
         [ConfirmedCasesNumberCard, MonitoringConfirmedCasesNumberCard],
+        [ConfirmedCasesByMunicipalitiesCard, DeathsByDeathDateCard],
+        [PositiveNumberByDiagnosedDateCard, PositiveNumberByDevelopedDateCard],
+        [ConfirmedCasesByAgeCard, TestedNumberCard],
       ],
     }
   },
