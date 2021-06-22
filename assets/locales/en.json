@@ -1019,5 +1019,17 @@
   "このカード内における継続的な翻訳技術の提供が難しいため、詳細の表示を当サイトにて中止しました。今後は、上記の「新型コロナウイルスワクチンについて」(相模原市公式サイト)から確認をお願いします。今現在、当サイトにてワクチン接種率に関する表を作成中です。完成までもうしばらくお待ちください。": "Due to the difficulty of providing continuous translation technology on this card, we have stopped displaying details on this site. In the future, please check from the above &quot;About the new coronavirus vaccine&quot; (Sagamihara City official website). Currently, we are preparing a table on vaccination rates on this site. Please wait for a while until it is completed.",
   "新型コロナウイルスワクチンについて ({VaccineDate}更新)": "About the new coronavirus vaccine (Updated {VaccineDate})",
   "「あらっいいお店♪感謝(サンキュー)を込めて！さがみはら・みんなのキャッシュバックキャンペーン（通称：サンキューキャンペーン）」": "&quot;A nice shop ♪ With gratitude (thank you)! Sagamihara, everyone&#39;s cashback campaign (commonly known as thank you campaign)&quot;",
-  "県の要請に応じて、夜間営業時間の短縮にご協力いただいた事業者に対する協力金（時短営業要請期間：令和3年6月1日から6月20日まで）": "Cooperation money for businesses that cooperated in shortening night business hours at the request of the prefecture (short-time business request period: from June 1st to June 20th, 3rd year of Reiwa)"
+  "県の要請に応じて、夜間営業時間の短縮にご協力いただいた事業者に対する協力金（時短営業要請期間：令和3年6月1日から6月20日まで）": "Cooperation money for businesses that cooperated in shortening night business hours at the request of the prefecture (short-time business request period: from June 1st to June 20th, 3rd year of Reiwa)",
+  "[ ] のない参考値は、ステージ3,4どちらとも同じ数値であることを示す": "Reference values without [] indicate that both stages 3 and 4 have the same value.",
+  "（７）の数値は、｛療養者数/（本市人口/10万人）｝で計算": "The number in (7) is calculated by {number of recuperators / (population of Motoichi / 100,000)}",
+  "参考値における [ ] 内の数値は、ステージ4の指標である（ [ ] のついていない参考値は、ステージ3の指標である）": "The numerical value in [] in the reference value is the index of stage 4 (the reference value without [] is the index of stage 3).",
+  "65歳以上のワクチン接種状況": "Vaccination status over 65 years old",
+  "（５）、（６）の数値は、｛入院者病床/利用可能病床｝で計算": "Numerical values in (5) and (6) are calculated using {Inpatient beds / Available beds}",
+  "ワクチン接種状況": "Vaccination status",
+  "2回接種済み": "Inoculated twice",
+  "接種済み": "Inoculated",
+  "未接種": "Uninoculated",
+  "感染動向": "Infection trends",
+  "1回接種済み": "Inoculated once",
+  "このデータの更新は、不定期である": "This data is updated irregularly"
 }
