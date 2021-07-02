@@ -295,7 +295,7 @@ export default Vue.extend({
   watch: {
     $route: 'handleChangeRoute',
     '$vuetify.breakpoint.xsOnly'(value) {
-      const $Side = this.$refs.Side as HTMLEmbedElement | undefined
+      const $Side = this.$refs.Side as HTMLElement | undefined
       if ($Side) {
         if (value) {
           $Side.setAttribute('role', 'dialog')
