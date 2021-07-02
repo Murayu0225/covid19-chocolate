@@ -337,6 +337,10 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+:focus {
+  outline: none;
+}
+
 .SideNavigation {
   position: relative;
   @include lessThan($small) {
