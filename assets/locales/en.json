@@ -1038,5 +1038,6 @@
   "65歳以上のワクチン接種件数": "Number of vaccinations over 65 years old",
   "ワクチン接種記録システム（VRS）のデータを基に、接種券の発行市町村別に集計している": "Based on the data of the vaccination record system (VRS), it is tabulated by the issuing municipality of the vaccination ticket.",
   "総務省が公表している「住民基本台帳に基づく人口、人口動態及び世帯数」内の「【統計】令和2年住民基本台帳年齢階級別人口」を基に高齢者の全人口を分母にし、接種率を出している": "Based on &quot;[Statistics] Population by age group in the 2nd year of the Resident Register&quot; in &quot;Population, Vital Statistics and Number of Households Based on the Basic Resident Register&quot; published by the Ministry of Internal Affairs and Communications, the total population of the elderly is used as the denominator. , Is giving out the inoculation rate",
-  "【神奈川県】新型コロナワクチンの接種について": "[Kanagawa Prefecture] About inoculation of new corona vaccine"
+  "【神奈川県】新型コロナワクチンの接種について": "[Kanagawa Prefecture] About inoculation of new corona vaccine",
+  "土曜日、日曜日、祝日は更新しない": "Do not update on Saturdays, Sundays and public holidays"
 }
