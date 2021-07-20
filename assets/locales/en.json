@@ -1068,5 +1068,8 @@
   "i. 数値入力時の二重チェックを必ず行います。": "i. Be sure to perform a double check when entering numerical values.",
   "ii. 皆様からの数値入力ミスの報告を受け付けます。": "ii. We accept reports of numerical input errors from everyone.",
   "1. 入力ミスのあったグラフ及び数値": "1. Graphs and numerical values with typos",
-  "2. 対応策": "2. Countermeasure"
+  "2. 対応策": "2. Countermeasure",
+  "2021年7月13日の陽性判明者数において42名と相模原市から発表されていた数値を当サイトにて44名として表記。(この数値は、2021年7月21日現在のものでありグラフ上の数値と異なる場合があります)": "The number of positives found on July 13, 2021 was 42, and the number announced by Sagamihara City is shown as 44 on this site. (This number is as of July 21, 2021 and may differ from the number on the graph.)",
+  "数値の入力ミスに関するお知らせ(2021年7月20日発表)": "Notice regarding input error (announced on July 20, 2021)",
+  "2021年5月11日の陽性判明者数において35名と相模原市から発表されていた数値を当サイトにて34名として表記。": "The number of positives found on May 11, 2021 was 35, and the number announced by Sagamihara City is shown as 34 on this site."
 }
