@@ -5,7 +5,7 @@
       <app-link
         to="https://sagamihara-stopcovid19.com/info/0720"
         :icon-size="12"
-        >{{ $t('2021年7月20日発表分 (別タブで開きます)') }}
+        >{{ $t('2021年7月21日発表分 (別タブで開きます)') }}
       </app-link>
       <br />
       <br />
