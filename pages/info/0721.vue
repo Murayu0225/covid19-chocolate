@@ -1,7 +1,7 @@
 <template>
   <div class="About">
     <page-header
-      :title="$t('数値の入力ミスに関するお知らせ(2021年7月20日発表)')"
+      :title="$t('数値の入力ミスに関するお知らせ(2021年7月21日発表)')"
     />
     <static-card>
       {{ $t('当サイトを閲覧していただきありがとうございます。') }}<br />
@@ -138,7 +138,7 @@ export default Vue.extend({
   head(): MetaInfo {
     return {
       title: this.$t(
-        '数値の入力ミスに関するお知らせ (2021年7月20日発表)'
+        '数値の入力ミスに関するお知らせ (2021年7月21日発表)'
       ) as string,
     }
   },
