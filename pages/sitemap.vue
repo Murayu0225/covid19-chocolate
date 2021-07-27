@@ -85,13 +85,13 @@
       </p>
       <ul>
         <li>
-        {{ $t('過去の報告') }}
+          {{ $t('過去の報告') }}
         </li>
         <ul>
           <li>
-          <app-link :to="localePath('/info/0721')" class="Sitemap-titleLink">
-            {{ $t('2021年7月21日発表分') }}
-          </app-link>
+            <app-link :to="localePath('/info/0721')" class="Sitemap-titleLink">
+              {{ $t('2021年7月21日発表分') }}
+            </app-link>
           </li>
         </ul>
       </ul>
