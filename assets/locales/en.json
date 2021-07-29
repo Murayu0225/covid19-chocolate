@@ -1084,5 +1084,21 @@
   " 件": "Case",
   "ワクチン接種件数（高齢者・累計）": "Number of vaccinations (elderly / cumulative)",
   "接種件数（１回目）": "Number of inoculations (1st time)",
-  "ワクチン接種記録システム（VRS）のデータを基に、接種券の発行市町村別に集計している（本データは過日の数値が修正されることがある）": "Based on the data of the vaccination record system (VRS), it is aggregated by the issuing municipality of the vaccination ticket (this data may be revised in the past days)."
+  "ワクチン接種記録システム（VRS）のデータを基に、接種券の発行市町村別に集計している（本データは過日の数値が修正されることがある）": "Based on the data of the vaccination record system (VRS), it is aggregated by the issuing municipality of the vaccination ticket (this data may be revised in the past days).",
+  "サイトの目的、アクセシビリティ方針、ブラウザ環境など": "Site purpose, accessibility policy, browser environment, etc.",
+  "事業者の皆様に対する支援情報およびテレワークの推進について": "Support information for businesses and promotion of telework",
+  "過去の報告": "Past reports",
+  "サイト情報": "Site information",
+  "Twitterで情報をシェア": "Share information on Twitter",
+  "当サイト内における数値の入力ミスについて": "About typos in numerical values on this site",
+  "SNSでシェア": "Share on SNS",
+  "2021年7月21日発表分": "Announced on July 21, 2021",
+  "新型コロナウイルス感染症情報": "Information on new coronavirus infections",
+  "facebookで情報をシェア": "Share information on facebook",
+  "関連サイト": "Related Sites",
+  "サイトマップ": "site map",
+  "お問い合わせ内容別対応局名、電話番号とお問い合わせ対応時間など": "Corresponding station name, telephone number and inquiry response time according to inquiry content, etc.",
+  "支援情報": "Support information",
+  "情報をシェア": "Share information",
+  "LINEで情報をシェア": "Share information on LINE"
 }
