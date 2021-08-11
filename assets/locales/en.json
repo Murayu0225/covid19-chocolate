@@ -1119,5 +1119,12 @@
   "グラフ上にて確認しにくい数値は、下記の「テーブルを表示」より確認可能である": "Numerical values that are difficult to confirm on the graph can be confirmed from &quot;Display table&quot; below.",
   "現在の総接種者数 ": "Current total number of inoculators",
   "ワクチン接種件数（全世代・累計）": "Number of vaccinations (all generations / cumulative total)",
-  "対象者 650,971人": "Target audience 650,971"
+  "対象者 650,971人": "Target audience 650,971",
+  "医療従事者等の記録は含まれている。職域接種の記録は、接種券がVRSに読み取られた記録についてのみ反映されている": "Records of health care workers, etc. are included. Occupational vaccination records are only reflected for records where the vaccination ticket was read into the VRS",
+  "ワクチン接種記録システム（VRS）のデータを基に、接種券の発行市町村別に集計している。登録にタイムラグがあるため、同じ日の接種実績でも、確認時点によって数値が異なる": "Based on the data of the vaccination record system (VRS), it is tabulated by the issuing municipality of the vaccination ticket. Since there is a time lag in registration, even if the inoculation results are on the same day, the numbers will differ depending on the time of confirmation.",
+  "12歳以上64歳以下の人口を分母にして接種率を出している": "The inoculation rate is given using the population aged 12 to 64 as the denominator.",
+  "対象者 466,791人": "Target 466,791 people",
+  "医療従事者等の記録は含まれていない。職域接種の記録は、接種券がVRSに読み取られた記録についてのみ反映されている": "Records of medical staff, etc. are not included. Occupational vaccination records are only reflected for records where the vaccination ticket was read into the VRS",
+  "ワクチン接種件数（12～64歳・累計）": "Number of vaccinations (12-64 years old, cumulative total)",
+  "12歳以上の人口を分母にして接種率を出している": "The inoculation rate is given using the population over 12 years old as the denominator."
 }
