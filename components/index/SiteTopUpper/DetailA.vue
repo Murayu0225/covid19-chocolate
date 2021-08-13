@@ -69,7 +69,7 @@
       >
         <template #cp>
           <span>
-            {{ statuses['調査中'].toLocaleString() }}
+            {{ statuses['状態調査中'].toLocaleString() }}
           </span>
         </template>
         <template #mp>
