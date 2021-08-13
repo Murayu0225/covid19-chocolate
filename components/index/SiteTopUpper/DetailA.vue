@@ -65,8 +65,13 @@
       <i18n
         tag="p"
         class="InfectionMedicalCareProvisionStatus-description"
-        path="無症状{mp}人、軽症{kp}人、中等症{tk}人、重症{jk}人"
+        path="調査中{cp}人、無症状{mp}人、軽症{kp}人、中等症{tk}人、重症{jk}人"
       >
+        <template #cp>
+          <span>
+            {{ statuses['調査中'].toLocaleString() }}
+          </span>
+        </template>
         <template #mp>
           <span>
             {{ statuses['無症状'].toLocaleString() }}
