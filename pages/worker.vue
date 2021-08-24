@@ -189,12 +189,12 @@ import PageHeader from '@/components/_shared/PageHeader.vue'
 import StaticCard from '@/components/_shared/StaticCard.vue'
 
 export default Vue.extend({
-  middleware: 'redirect',
   components: {
     PageHeader,
     StaticCard,
     AppLink,
   },
+  middleware: 'redirect',
   head(): MetaInfo {
     return {
       title: this.$t('企業の皆様・はたらく皆様へ') as string,
