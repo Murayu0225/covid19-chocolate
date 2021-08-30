@@ -1130,5 +1130,7 @@
   "調査中{cp}人、無症状{mp}人、軽症{kp}人、中等症{tk}人、重症{jk}人": "Under investigation {cp}, asymptomatic {mp}, mild {kp}, moderate {tk}, severe {jk}",
   "昨日までの累計": "Cumulative total up to yesterday",
   "本日発表分": "Announced today",
-  "市内の新型コロナウイルス陽性者数の急上昇に伴いデータの更新に時間を要している。そのため、このグラフにおけるデータの更新が後日行われることがある": "It is taking time to update the data due to the rapid rise in the number of people positive for the new coronavirus in the city. Therefore, the data in this graph may be updated at a later date."
+  "市内の新型コロナウイルス陽性者数の急上昇に伴いデータの更新に時間を要している。そのため、このグラフにおけるデータの更新が後日行われることがある": "It is taking time to update the data due to the rapid rise in the number of people positive for the new coronavirus in the city. Therefore, the data in this graph may be updated at a later date.",
+  "更新を終了したグラフ": "Graph that has been updated",
+  "このグラフに関する相模原市の情報公開終了に伴い、2021年8月27日分の更新を持って運用を終了しました。": "With the end of information disclosure of Sagamihara City regarding this graph, the operation was terminated with the update for August 27, 2021."
 }
