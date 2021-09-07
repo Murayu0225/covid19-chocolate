@@ -1132,5 +1132,10 @@
   "本日発表分": "Announced today",
   "市内の新型コロナウイルス陽性者数の急上昇に伴いデータの更新に時間を要している。そのため、このグラフにおけるデータの更新が後日行われることがある": "It is taking time to update the data due to the rapid rise in the number of people positive for the new coronavirus in the city. Therefore, the data in this graph may be updated at a later date.",
   "更新を終了したグラフ": "Graph that has been updated",
-  "このグラフに関する相模原市の情報公開終了に伴い、2021年8月27日分の更新を持って運用を終了しました。": "With the end of information disclosure of Sagamihara City regarding this graph, the operation was terminated with the update for August 27, 2021."
+  "このグラフに関する相模原市の情報公開終了に伴い、2021年8月27日分の更新を持って運用を終了しました。": "With the end of information disclosure of Sagamihara City regarding this graph, the operation was terminated with the update for August 27, 2021.",
+  "陰性確認（治癒確認）のための検査も含む": "Includes tests for negative confirmation (confirmation of cure)",
+  "協力医療機関等の協力により検体を採取し、市衛生研究所で検査を行っている": "Specimens are collected with the cooperation of cooperating medical institutions, etc., and tested at the City Health Research Institute.",
+  "市衛生研究所におけるPCR検査実績": "PCR test results at the City Health Research Institute",
+  "医療機関における保険適用での検査人数は含まれていない": "Does not include the number of people inspected for insurance coverage at medical institutions",
+  "検査件数には同一人物に対する複数検体の計上を含む": "The number of tests includes the counting of multiple samples for the same person"
 }
