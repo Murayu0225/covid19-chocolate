@@ -1139,31 +1139,31 @@
   "医療機関における保険適用での検査人数は含まれていない": "Does not include the number of people inspected for insurance coverage at medical institutions",
   "検査件数には同一人物に対する複数検体の計上を含む": "The number of tests includes the counting of multiple samples for the same person",
   "当サイトを運営している私自身、大学受験を控えておりこれ以上のサイト維持・データ更新を引き続き行うことが難しいと感じたためです。": "This is because I myself, who runs this site, are preparing to take university entrance exams and find it difficult to continue to maintain the site and update data.",
+  "当サイト閉鎖に関するお知らせ": "Notice regarding the closure of this site",
+  "突然の発表となりますがご理解下さい。 - 相模原市 新型コロナウイルス感染症対策サイト 運営者": "Please understand that this will be a sudden announcement. --Sagamihara City New Coronavirus Infectious Disease Control Site Operator",
   "重要なお知らせ": "Important Notices",
   "この件に関するお問い合わせは、": "For inquiries regarding this matter, please contact",
   "2022年1月1日以降、当サイトの閲覧は行えません。Twitterアカウントの閉鎖は行いません。": "You will not be able to browse this site after January 1, 2022. We will not close your Twitter account.",
-  "突然の発表となりますがご理解下さい。 - 相模原市 新型コロナウイルス感染症対策サイト 運営者": "Please understand that this will be a sudden announcement. --Sagamihara City New Coronavirus Infectious Disease Control Site Operator",
-  "までお願いします。また、当サイトの運営を引き継いでいただける方がおりましたら先程のメールアドレスまで相談してください。（その場合、ドメインの管理費は私が支払います）また、大学受験後の運営に関してはその頃の感染状況等を考慮して決めます。運営を行う場合には、当サイトのTwitterアカウント(@sagami_covid19)にて告知します。": "Thank you. Also, if anyone can take over the operation of this site, please contact us at the email address you mentioned earlier. (In that case, I will pay the domain management fee.) In addition, the operation after the university entrance examination will be decided in consideration of the infection situation at that time. When operating, we will notify you on our Twitter account (@ sagami_covid19).",
-  "当サイト閉鎖に関するお知らせ(2021年9月24日発表)": "Notice regarding closure of this site (announced on September 24, 2021)",
   "この度、当サイトを閉鎖することとなりましたのでお知らせいたします。": "We are pleased to inform you that this site will be closed.",
-  "当サイト閉鎖に関するお知らせ": "Notice regarding the closure of this site",
   "相模原市 新型コロナウイルス感染症対策サイト（以下、当サイト）を閲覧していただきありがとうございます。": "Sagamihara City Thank you for visiting the new coronavirus infection control site (hereinafter referred to as this site).",
   "2021年10月1日以降、データの更新は一切行わずサイトの閲覧のみ可能となります。": "After October 1, 2021, the data will not be updated at all and you will only be able to browse the site.",
+  "当サイト閉鎖に関するお知らせ(2021年9月24日発表)": "Notice regarding closure of this site (announced on September 24, 2021)",
+  "までお願いします。また、当サイトの運営を引き継いでいただける方がおりましたら先程のメールアドレスまで相談してください。（その場合、ドメインの管理費は私が支払います）また、大学受験後の運営に関してはその頃の感染状況等を考慮して決めます。運営を行う場合には、当サイトのTwitterアカウント(@sagami_covid19)にて告知します。": "Thank you. Also, if anyone can take over the operation of this site, please contact us at the email address you mentioned earlier. (In that case, I will pay the domain management fee.) In addition, the operation after the university entrance examination will be decided in consideration of the infection situation at that time. When operating, we will notify you on our Twitter account (@ sagami_covid19).",
   "2": {
     " 閉鎖までのロードマップ": "2",
     " 対応策": "2"
+  },
+  "3. その他": "3. Other",
+  "i": {
+    " データ更新終了・Twitterアカウント運用終了（2021年9月30日）": "i",
+    " 数値入力時の二重チェックを必ず行います。": "i"
   },
   "1": {
     " 理由": "1",
     " 入力ミスのあったグラフ及び数値": "1"
   },
-  "i": {
-    " 数値入力時の二重チェックを必ず行います。": "i",
-    " データ更新終了・Twitterアカウント運用終了（2021年9月30日）": "i"
-  },
   "ii": {
-    " 皆様からの数値入力ミスの報告を受け付けます。": "ii",
-    " 完全閉鎖（2021年12月31日）": "ii"
-  },
-  "3. その他": "3. Other"
+    " 完全閉鎖（2021年12月31日）": "ii",
+    " 皆様からの数値入力ミスの報告を受け付けます。": "ii"
+  }
 }
