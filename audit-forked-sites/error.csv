@@ -48,3 +48,9 @@ timestamp,url,exists,status
 2021-12-01T10:05:29+09:00,https://stopcovid19.pref.shiga.jp/,False,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stopcovid19.pref.shiga.jp'. (_ssl.c:1131)"
 2021-12-01T10:05:38+09:00,https://covid19-kagawa.jp/,False,[Errno -2] Name or service not known
 2021-12-01T10:05:39+09:00,https://covid19-kochi.netlify.app/,False,404
+2022-01-01T10:07:42+09:00,https://yachiyo-covid19.netlify.app/,False,404
+2022-01-01T10:07:50+09:00,https://ishikawa-covid19.netlify.app/,False,404
+2022-01-01T10:07:57+09:00,https://stopcovid19.pref.shiga.jp/,False,"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stopcovid19.pref.shiga.jp'. (_ssl.c:1131)"
+2022-01-01T10:08:04+09:00,https://kagawa.stopcovid19.jp/,False,[Errno -2] Name or service not known
+2022-01-01T10:08:04+09:00,https://covid19-kagawa.jp/,False,[Errno -2] Name or service not known
+2022-01-01T10:08:05+09:00,https://covid19-kochi.netlify.app/,False,404
